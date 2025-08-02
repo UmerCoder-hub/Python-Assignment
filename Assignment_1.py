@@ -43,7 +43,6 @@ print("a <= b:", a <= b)
 
 
 #Q.4: Which comparisons return True?
-Part 4: Logical Operators
 x = True
 y = False
 print("x and y:", x and y)
