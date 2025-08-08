@@ -1,4 +1,4 @@
-#Check umber is Larger or Smaller
+#Check the Largest Number Between Two Numbers
 
 num1=int(input("Enter Number 1: "))
 num2=int(input("Enter Number 2: "))
