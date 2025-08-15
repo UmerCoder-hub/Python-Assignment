@@ -3,3 +3,7 @@
 
 def Greeting(name):
   return f"Welcome to SMIT training center, {name}"
+
+name = input("Enter Your Name: ")
+greet=Greeting(name)
+print(greet)
