@@ -6,6 +6,6 @@ def number(num):
     return "Number is Negative"
   else:
     return "Number is Zero"
-numb = int(input("Enter Number"))
+numb = int(input("Enter Number: "))
 num=number(numb)
 print(num)
