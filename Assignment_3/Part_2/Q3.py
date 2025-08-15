@@ -1,5 +1,5 @@
 #Create a list [“apple”, “raspberry”, “pineapple”, “cherry”]. 
-list [“apple”, “raspberry”, “pineapple”, “cherry”]. 
+list=["apple", "raspberry", "pineapple", "cherry"]. 
 
 
 #a.	 How can you check if apple is present in the list and get the index of the element (if present)
