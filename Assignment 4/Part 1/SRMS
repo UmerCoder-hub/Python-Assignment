@@ -42,7 +42,7 @@ def search_student():
 
 def update_student():
     found,index=search_student()
-    if found is not None:
+    if found:
         marks=input("Enter Marks to update:")
         records[index][3]=marks
         print("______________________________")
@@ -54,7 +54,7 @@ def update_student():
           
 def delete_student():
     found,index=search_student()
-    if found is not None:
+    if found:
         records.remove(found)
         print("Student Delete")
 
@@ -79,7 +79,7 @@ while True:
         display_student()
     elif choice =='3':
         found,idx=search_student()
-        if found is not None:
+        if found:
             print("______________________________")
             print(f"Name:{spacing('Name:',10)}{found[0]}")
             print(f"Roll No:{spacing('Roll No:',10)}{found[1]}")
